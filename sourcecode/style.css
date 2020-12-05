@@ -1,0 +1,110 @@
+@import url('"https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
+    font-size: larger;
+    display:block;
+    margin: auto;
+    
+  
+  }
+  .textArea{
+      width: 80%;
+      height: 10vh;
+      display: block;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      max-width:600px;
+      margin: auto;
+    
+      }
+     #output{
+       border: 1px solid black;
+       height: 10vh;
+       width: 80%;
+       max-width:600px;
+       margin: auto;
+       padding: 1rem;
+       border-radius: 0.25rem;
+     } 
+
+     #btn-translate{
+        margin: 2rem;
+        background-color:rgb(0, 238, 255);
+        border: 0.5rem;
+        border-radius: 0.5rem;
+        padding: 1rem 1rem 1rem 1rem;
+     }
+
+     .navigation{
+           background-color:rgb(10, 245, 245) ;
+           color:black;
+           padding: 0.5rem;
+           margin-bottom: 2REM;
+       
+       }
+     .navigation .nav-brand{
+        text-align: left;
+         font-weight: bold;
+     }
+     .footer{
+        background-color: rgb(10, 245, 245);
+        padding : 0.5rem 0.5rem;
+        text-align :center; 
+        color:black;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+      
+        margin-top:1rem;
+      
+    }
+    .footer-container{
+        text-align :center; 
+    }
+    .footer .link{
+        color:black;
+        display: inline-block;
+        padding-inline-start: 0px;
+    }
+    .list-item-inline{
+        display:inline-block;
+        padding :0rem 0.5rem;
+       }
+       .link{
+        text-decoration:none;
+        padding: 0.5rem 1rem;
+    }
+    .background{
+        width: 60px;
+    }
+     
+    .navigation .link {
+        display: inline-block;
+       color:black;
+       padding: 0rem;
+      
+   }
+
+   .nav-pills{
+       text-align: right;
+      
+   }
+   .section {
+    padding: 2rem;
+    margin: auto;
+ 
+ }
+ .section h1 {
+     text-align: left;
+ }
+ .ow {
+     background-color: rgba(255, 255, 255, 0.712);
+ }
+ .primary-link{
+    padding-top: 0.5rem;
+    background-color: rgb(0, 238, 255);
+    border-radius: 0.5rem;
+    color: black;
+}
