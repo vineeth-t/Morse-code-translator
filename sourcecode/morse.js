@@ -1,7 +1,7 @@
 var btnTranslate=document.querySelector("#btn-translate");
 var outputDiv = document.querySelector("#output");
 var textInput= document.querySelector(".textArea");
-var url="http://api.funtranslations.com/translate/morse2english.json";
+var url="https://api.funtranslations.com/translate/morse.json";
 btnTranslate.addEventListener("click",clickEvent);
 function clickEvent() {
     doFetch(textInput.value);
